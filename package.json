@@ -1,0 +1,30 @@
+{
+  "name": "table-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bggth/table-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bggth/table-search/issues"
+  },
+  "homepage": "https://github.com/bggth/table-search#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "webpack": "^5.72.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2",
+    "bootstrap-sass": "^3.3.7"
+  }
+}

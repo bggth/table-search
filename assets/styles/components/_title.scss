@@ -1,0 +1,9 @@
+.body__title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+	text-align: center;
+	@include media-768 {
+		font-size: 24px;
+	}
+}

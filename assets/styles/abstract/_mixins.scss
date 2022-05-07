@@ -1,0 +1,22 @@
+@mixin font($size, $height, $weigth, $style) {
+	font-size: $size;
+	font-weight: $weigth;
+	line-height: $height;
+	font-style: $style;
+}
+
+@mixin media-1280plus {
+	@media(min-width: 1320px) {@content;}
+}
+
+@mixin media-1280 {
+	@media(max-width: 1280px) {@content;}
+}
+
+@mixin media-768 {
+	@media(max-width: 830px) {@content;}
+}
+
+@mixin media-320 {
+	@media(max-width: 320px) {@content;}
+}
